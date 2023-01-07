@@ -1,0 +1,208 @@
+/* header */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner {
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 940px;
+    display: flex;
+}
+
+/* .bg-image {
+    width: 100%;
+} */
+
+.title {
+    width: 525px;
+    padding-left: 1100px;
+    padding-top: 250px;
+}
+
+.all-thinks {
+    margin-bottom: 24;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+}
+
+.title-description {
+    text-align: right;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    float: right;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+    margin-top: 130px;
+
+}
+
+.main-description {
+    width: 416px;
+    height: 404.81px;
+    margin-right: 250px;
+}
+.person-img{
+    margin-left: 250px;
+}
+
+.main-description-title {
+    font-weight: 900;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 25px;
+}
+
+.desc-1 {
+    padding-bottom: 22px;
+}
+
+
+.main-ul li {
+    list-style: none;
+}
+
+.main-ul li:before {
+    content: '✓';
+    padding-right: 10px;
+    color: #16D887;
+}
+
+/* main-2 */
+
+.main-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-plans {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 50px;
+}
+
+.i-want {
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.sub-div {
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+/* gradient */
+
+.gradient {
+    display: flex;
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("/images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin: auto;
+    align-items: center;
+}
+
+.gradient-element {
+    width: 459px;
+    height: 152px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 65px;
+}
+
+.gradient-text {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.gradient-btn {
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    margin-top: 20px;
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    background-color: #151414;
+    margin-top: auto;
+    color: white;
+    justify-content: space-around;
+    margin-top: 130px;
+    height: 570px;
+
+}
+
+/* .footer-element{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+.future {
+    padding-top: 130px;
+    width: 490px;
+    height: 320px;
+}
+.future-h1{
+    margin-bottom: 20px;;
+}
+
+.subscribe {
+    padding-top: 130px;
+    margin-left: 20px;
+}
+
+.enter-email {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 325px;
+    height: 55px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #151414;
+    padding-left: 10px;
+}
